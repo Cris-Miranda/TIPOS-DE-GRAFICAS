@@ -5,3 +5,6 @@ tetat=range(0, 3, 0.01) #Generamos los valroes de cero
 r= 2*pi * teta #Se calcula r para cada valor de cero
 subplot(111, polar = true) #Creamo la subgráfica polar
 plot (r, teta, color = 'r', linewidth = 3) #Creamos la gráfica
+grid(True) # Se añade la reticula
+title("Grfica polar de r = 2$\pi\\teta$")
+show()
