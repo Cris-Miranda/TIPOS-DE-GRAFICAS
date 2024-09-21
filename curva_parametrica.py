@@ -11,3 +11,7 @@ y = r * cos(teta)
 plot(x, y, z, label = 'Curva Parametrica')
 legend()
 show()
+
+# La grafica paramétrica se forma con la instruccion plot pero pero previamente tenemos que indicar
+# que será gráficada tridimensional con la instruccion Axes 3D que se importa de la biblioteca 
+# mpl_toolkids.mplot3d
